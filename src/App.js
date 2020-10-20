@@ -7,7 +7,6 @@ function App() {
   return (
     <div>
       <Navbar />
-      <h1>Holder</h1>
     </div>
   );
 }

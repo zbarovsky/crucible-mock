@@ -18,3 +18,43 @@
   @media (min-width: 1800px) { @content;}
 }
 
+
+/* ----------- Variables ------------------- */
+
+$navbar-color: #111317;
+$background-color: rgb(88, 88, 88);
+$text-color: ghostwhite;
+
+/* ----------- NAVBAR STYLINGS ------------- */
+
+.navbar {
+  background-color: $navbar-color;
+  border-bottom: solid black;
+  color: $text-color;
+  padding: 1vw 0vw 1vw 1vw;
+}
+
+.navbar-game-title {
+  margin: 0;
+  display: inline-flex;
+}
+
+.navbar-menu {
+
+  ul {
+    list-style-type: none;
+    display: inline-flex;
+  }
+  
+  li {
+    padding-right: 2vw;
+  }
+}
+
+.submenu {
+
+  ul {
+    margin: 0;
+    display: none;
+  }
+}
