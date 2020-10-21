@@ -76,3 +76,72 @@ body {
     }
   }
 }
+
+
+/* ------------ FOOTER --------------- */
+
+.footer{
+  position: fixed;
+  display: grid;
+  grid-gap: 1vw 1vh;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: $navbar-color;
+  color: $text-color
+}
+
+.footer-logo {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding-left: 2vw;
+}
+
+.footer-img {
+
+  &:hover {
+    background-image: linear-gradient(45deg, #00ccff, #0073e6);
+  }
+}
+
+.footer-hunt-level {
+  grid-column-start: 6;
+  grid-column-end: 8;
+}
+
+.footer-amazon-games {
+  padding-left: 1vw;
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  p {
+    display: inline-grid;
+    padding-right: 1vw;
+  }
+}
+
+.footer-list-legal {
+  grid-column-start: 4;
+  grid-column-end: 8;
+  text-align: center;
+}
+
+.footer-list {
+  list-style-type: none;
+  li {
+    display: inline-grid;
+    padding-right: 1vw;
+    text-decoration: underline;
+
+    &:hover {
+      color: #0073e6;
+    }
+  }
+}
+
+.footer-copyright {
+  grid-column-start: 11;
+  grid-column-end: 12;
+}
