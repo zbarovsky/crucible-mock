@@ -15,7 +15,7 @@ function Navbar () {
                     <h1 className='navbar-game-title'>Crucible</h1>
                     <ul className='navbar-mobile-hamburger'>
                         <li className={hoverAbout ? 'submenu': ''} onMouseEnter={toggleHoverAbout} onMouseLeave={toggleHoverAbout}>About
-                            <ul>
+                            <ul className='submenu-menu'>
                                 <li>About Crucible</li>
                                 <li>FAQ</li>
                                 <li>PC Requirements</li>
@@ -25,7 +25,7 @@ function Navbar () {
                         <li>Hunters</li>
                         <li>News</li>
                         <li className={hoverCommunity ? 'submenu': ''} onMouseEnter={toggleHoverCommunity} onMouseLeave={toggleHoverCommunity}>Community
-                            <ul className='community-hamburger'>
+                            <ul className='submenu-menu'>
                                 <li>Community</li>
                                 <li>Media</li>
                                 <li>Wiki</li>

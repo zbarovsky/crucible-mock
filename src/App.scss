@@ -22,8 +22,15 @@
 /* ----------- Variables ------------------- */
 
 $navbar-color: #111317;
-$background-color: rgb(88, 88, 88);
+$background-color: rgb(48, 48, 48);
 $text-color: ghostwhite;
+
+
+/* ---------- Misc. Stylings -------------- */
+
+body {
+  background-color: $background-color;
+}
 
 /* ----------- NAVBAR STYLINGS ------------- */
 
@@ -56,5 +63,16 @@ $text-color: ghostwhite;
   ul {
     margin: 0;
     display: none;
+  }
+}
+
+.submenu-menu {
+  
+  li {
+    display: block;
+
+    &:hover {
+      color: red;
+    }
   }
 }
